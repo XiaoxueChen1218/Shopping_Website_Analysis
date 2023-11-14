@@ -11,5 +11,15 @@ Analysing a portfolio of marketing channels is about bidding efficiently and usi
 
 We also analyse the unpaid traffic like organic search(direct type in) and compare it with the paid traffic to test the brand effect. And it seems that not only are our brand, direct, and organic volumes growing, but they are growing as a percentage of our paid traffic volume.
 ## Analysing Website Performance
-To understand the customer behaviour on our website, we built a funnel: landing page -> products -> certain_product -> cart -> shipping -> billing -> thankyou. We have two landing pages in the dataset. We find the lander-1 bounce rate is 0.58 and lander-2 bounce rate is 0.53. Therefore, lander-2 performed better than lander-1. And for the conversion funnel, the CVRs are: 0.47 -> 0.74 -> 0.43 -> 0.67 -> 0.79 -> 0.43. It's clear that we should focus on the lander, certain_product and the billing page, which have the lowest click rates. We can make a new version page and run a A/B Test to optimize the pain points where users are abandoning.
+To understand the customer behaviour on our website, we built a funnel: landing page -> products -> certain_product -> cart -> shipping -> billing -> thankyou. We have two landing pages in the dataset. We find the lander-1 bounce rate is 0.58 and lander-2 bounce rate is 0.53. Therefore, lander-2 performed better than lander-1. And for the conversion funnel, the CVRs are: 0.47 -> 0.74 -> 0.43 -> 0.67 -> 0.79 -> 0.43. It's clear that we should focus on the lander, certain_product and the billing page, which have the lowest click rates. We can make a new version page and run a A/B Test to optimize the *pain points* where users are abandoning.
+## Seasonality
+Analyzing business patterns is about generating insights to help you maximize efficiency and anticipate future trends.
+After generating the orders, revenue, pageviews and etc. trends, we found that we grew fairly steadily all year, and saw significant volume around the *holiday* months (especially the weeks of Black Friday and Cyber Monday).
+## Product Analysis
+Product-focused website analysis is about learning how customers interact with each of your products, and how well each product converts customers.
+And Cross-sell analysis is about understanding which products users are most likely to purchase together, and offering smart product recommendations. We found that people are likely to buy product1 and product3 simutanously. The combined selling method helps increase the orders about 10.9%.
+
+Lastly, we calculate the refund rate of each product monthly.
+Looks like the refund rates for the certain_product did go down after the initial improvements in September 2013, but refund rates were terrible in August and September, as expected (13-14%).After changing the supplier on Sep.16, 2014, the new supplier is doing much better so far.
+
 
